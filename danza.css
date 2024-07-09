@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100%;
+   padding-bottom: 5%;
+}
+
+.image {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(2.2);
+}
+h1{
+    font-family: "Birds of Paradise  Personal use";
+    color: black;
+}
+#offcanvasNavbar{
+    color: white;
+    background-color: #50CDE4;
+    font-family: "Times New Romas"
+
+}

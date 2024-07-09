@@ -1,0 +1,54 @@
+body{background-image: url(lixure4.jpg);
+     background-repeat: no-repeat;
+    background-attachment: fixed;   
+    
+}
+contenedor{
+      display: flex;
+    float: left;
+
+    
+}  
+
+
+
+div#datos {
+    margin:auto;
+    margin: 10px;
+    width: 450px;
+    height: 430px;
+   
+}
+  
+div#formacion {
+    margin:auto;
+    margin: 10px;
+    width: 450px;
+    height: 430px;
+    float: right;
+   
+} 
+div#actividad {
+    margin:auto;
+    margin: 10px;
+    width: 450px;
+    height: 430px;
+   
+}   
+ 
+div#cualidades {
+    width: 250px;
+    height: 430px;
+    float: left;
+   
+}        
+   
+   
+
+
+
+
+
+
+
+

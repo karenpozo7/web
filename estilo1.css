@@ -1,0 +1,16 @@
+body{
+   background-color: skyblue;
+    }
+
+.contenido{
+    float: left;
+    margin: 50px;
+
+}
+
+.container{
+    float: left;
+    margin: 50px;
+    padding: inherit;
+
+}

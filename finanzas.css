@@ -1,0 +1,22 @@
+.body{
+   background-image: url(foto.png)
+    
+    
+}
+
+
+.contenido{
+      float: left;
+     margin: 100px;
+    margin-top: auto;
+}
+
+.container{
+    float: left;
+    margin: 100px;
+    margin: auto;
+   
+
+}
+
+  

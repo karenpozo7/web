@@ -1,0 +1,70 @@
+.navbar{
+    box-shadow: 2px 2px 5px #FFFFFF;
+    
+   
+} 
+.main-header{
+    position: relative;
+    background: url(realin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107,.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.form-control, .btn{
+    border-radius: 10px;
+    
+}
+.team{
+    background: #FFFFFF;
+}
+.container{
+    float: left;
+    display: flex;
+}
+
+.cruu img{
+    float: left;
+    transform: scale(1.2); /* Zoom al pasar el cursor */
+    z-index: 1;
+    margin: 100px;
+    margin-top: auto;
+     transform: translateY(-10%);
+    
+}
+
+  .image-zoom {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Ajusta el tamaño base de la imagen */
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+
+  .image-zoom img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .image-zoom:hover img {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% al pasar el cursor */
+  }
+
+.copy{
+    background-color: #3498db;
+    height: 50px;
+
+}
+
+

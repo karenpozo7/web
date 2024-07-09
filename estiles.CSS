@@ -1,0 +1,28 @@
+Body{
+    background-color: black;
+
+    
+    
+}
+
+card{
+    
+    
+    float: left;
+    margin: 6px;
+    padding: 5px;
+
+}
+
+.card-img-top{
+    padding: 20px;
+    margin: center 10%;
+    
+    
+    
+
+}
+.card-text{
+    background-color: lightpink;
+}
+
